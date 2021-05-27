@@ -1,0 +1,20 @@
+{
+  "name": "pipefy-api-automation",
+  "version": "1.0.0",
+  "description": "Automation API",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "$(npm bin)/cypress open",
+    "cy:test": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "api",
+    "automation"
+  ],
+  "author": "Marcio Almeida",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.4.0"
+  }
+}
